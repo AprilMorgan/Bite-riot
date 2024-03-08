@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/logo.jpeg);
+  opacity: 80%;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+banner {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: rgb(77, 75, 75);
+  color: white; 
+}
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+} */
+
+li {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  float: right;
+  font-size: 20px;
+  color: black;
+  padding: 20px;
+}
+
+i {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  float: right;
+  padding: 10px;
+  color: goldenrod;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+  text-wrap: balance;
+  
+}
+
+.menu {
+  width: 75%;
+  background-color: rgb(241, 186, 119);
+}
+
+#orderForm {
+  background-color: #e3f1f1;
+  width: 60%;
+}
+
+#contactForm {
+  background-color: azure;
+  width: 50%;
+}
+
+.footer {
+  height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+}

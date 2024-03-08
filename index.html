@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bite-Riot Confections</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <banner>We are accepting orders! To ensure freshness,
+      your order will be baked the day after it is place 
+      and shipped the next.
+    </banner>
+    <div class="header" id="myHeader">
+      <i class="fa fa-shopping-cart fa-2x"></i>
+      <ul>
+        <li a href="#">Contact</li>
+        <li a href="#">About</li>
+        <li a href="#">Custom Orders</li>
+        <li a href="#">Shop</li>
+      </ul>
+      <img src="images/logo-small.jpg">
+    </div>
+    
+  <main>
+    <div class="content">
+      <div class="aboutUs">
+        <h5>Based in Las Vegas</h5>
+      <h1>Bite-Riot Confections</h1>
+        <p>
+        Welcome to Bite-Riot Confections! I'm Hunter--proudly serving customers in the Las Vegas
+        area. Thanks for stopping by!. Please don't hesitate to reach out if you have any questions
+        and be sure to subscribe to my email list for discounts and shop updates. Thank you for 
+        supporting Bite-Riot Confections!
+        </p>
+      </div>
+    <div class="menu">
+    <h1>Check Out Our Menu!</h1>
+      <div class="card-1">
+        <p>this is some subtext under an illustration or image</p>
+      </div>
+
+      <div class="card-2">
+        <p>this is some subtext under an illustration or image</p>
+      </div>
+
+      <div class="card-3">
+        <p>this is some subtext under an illustration or image</p>
+      </div>
+
+      <div class="card-4">
+        <p>this is some subtext under an illustration or image</p>
+      </div>
+    </div>
+
+    <form action="" id="orderForm" method="">
+      <label>
+        <span class="fname">First Name 
+          <span class="required">*</span>
+        </span>
+        <input type="text" id="fname" name="fname">
+      </label><br>
+
+      <label>
+        <span class="lname">Last Name
+          <span class="required">*</span>
+        </span>
+        <input type="text" id="lname" name="lname">
+
+      <label>
+        <span>Street Address
+          <span class="required">*</span>
+        </span>
+        <input type="text" name="houseAdd" placeholder="Number and Street" required>
+      </label>
+
+      <label>
+        <span>&nbsp;</span>
+        <input type="text" name="apartment" placeholder="Apartment, suite, unit etc. (optional)">
+      </label>
+
+      <label>
+        <span>Town / City <span class="required">*</span></span>
+        <input type="text" name="city"> 
+      </label>
+
+      <label>
+        <span>State / County <span class="required">*</span></span>
+        <input type="text" name="city"> 
+      </label>
+
+      <label>
+        <span>Postcode / ZIP <span class="required">*</span></span>
+        <input type="text" name="city"> 
+      </label>
+
+      <label>
+        <span>Phone <span class="required">*</span></span>
+        <input type="tel" name="city"> 
+      </label>
+
+      <label>
+        <span>Email Address <span class="required">*</span></span>
+        <input type="email" name="city"> 
+      </label>
+    </form>
+
+    <div class="yourOrder">
+      <table>
+        <tr>
+          <th colspan="2">Your order</th>
+        </tr>
+        <tr>
+          <td>Product Name x (Qty)</td>
+          <td>$</td>
+        </tr>
+        <tr>
+          <td>Subtotal</td>
+          <td>$</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>Free shipping</td>
+        </tr>
+      </table><br>
+
+      <div>
+        <input type="radio" name="dbt" value="dbt" checked> Direct Bank Transfer
+      </div>
+        <p>
+          Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+        </p>
+
+      <div>
+        <input type="radio" name="dbt" value="cd"> Cash on Delivery
+      </div>
+
+      <div>
+        <input type="radio" name="dbt" value="cd"> Paypal <span>
+        <img src="https://www.logolynx.com/images/logolynx/c3/c36093ca9fb6c250f74d319550acac4d.jpeg" alt="" width="50">
+        </span>
+      </div>
+
+      <button type="button">Place Order</button>
+    </div>
+    </div>
+    </form>
+
+    <form action="" id="contactForm" method="">
+      <h1>Contact Us!</h1>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+  </main>
+  <div class="footer">Created by AMDev 2024</div>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>
